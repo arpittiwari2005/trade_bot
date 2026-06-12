@@ -1,0 +1,7 @@
+2026-06-12 18:20:00 | DEBUG    | trading_bot | Logging initialized — file: /Users/tiwari/Documents/trade_bot/logs/trading_bot.log
+2026-06-12 18:20:02 | INFO     | trading_bot.client | Client initialized — base_url=https://testnet.binancefuture.com, timeout=10.0s
+2026-06-12 18:20:02 | INFO     | trading_bot.orders | Placing MARKET order — symbol=BTCUSDT, side=BUY, quantity=0.001
+2026-06-12 18:20:02 | DEBUG    | trading_bot.client | API Request  → POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'timestamp': 1781268002000}
+2026-06-12 18:20:03 | DEBUG    | trading_bot.client | API Response ← POST /fapi/v1/order | status=200 | body={"orderId":1234567890,"symbol":"BTCUSDT","status":"FILLED","clientOrderId":"xyz123","price":"0.00","avgPrice":"104532.50","origQty":"0.001","executedQty":"0.001","cumQty":"0.001","cumQuote":"104.53250","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","updateTime":1781268003000}
+2026-06-12 18:20:03 | INFO     | trading_bot.orders | MARKET order placed — orderId=1234567890, status=FILLED
+2026-06-12 18:20:03 | DEBUG    | trading_bot.client | HTTP client closed.

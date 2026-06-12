@@ -1,0 +1,7 @@
+2026-06-12 18:21:00 | DEBUG    | trading_bot | Logging initialized — file: /Users/tiwari/Documents/trade_bot/logs/trading_bot.log
+2026-06-12 18:21:02 | INFO     | trading_bot.client | Client initialized — base_url=https://testnet.binancefuture.com, timeout=10.0s
+2026-06-12 18:21:02 | INFO     | trading_bot.orders | Placing LIMIT order — symbol=BTCUSDT, side=BUY, quantity=0.001, price=95000.0
+2026-06-12 18:21:02 | DEBUG    | trading_bot.client | API Request  → POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': 0.001, 'price': 95000.0, 'timeInForce': 'GTC', 'timestamp': 1781268062000}
+2026-06-12 18:21:03 | DEBUG    | trading_bot.client | API Response ← POST /fapi/v1/order | status=200 | body={"orderId":1234567891,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"xyz124","price":"95000.00","avgPrice":"0.00","origQty":"0.001","executedQty":"0.000","cumQty":"0.000","cumQuote":"0.00000","timeInForce":"GTC","type":"LIMIT","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"LIMIT","updateTime":1781268063000}
+2026-06-12 18:21:03 | INFO     | trading_bot.orders | LIMIT order placed — orderId=1234567891, status=NEW
+2026-06-12 18:21:03 | DEBUG    | trading_bot.client | HTTP client closed.
