@@ -29,7 +29,7 @@ Built with clean architecture, structured logging, and comprehensive input valid
 
 ```bash
 # 1. Clone the repository
-git clone <repo-url>
+git clone (https://github.com/arpittiwari2005/trade_bot)
 cd trading_bot
 
 # 2. Create and activate a virtual environment
